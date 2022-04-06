@@ -1,6 +1,6 @@
 # Transforma Tech
 
-* Conteúdo referente a HTML, CSS e JS
+Conteúdo referente a HTML, CSS e JS
 
 ## Links para exercicios HTML feitos:
 - [Exercicio0](/html-css-js/projeto-html/hello.html) - Hello World

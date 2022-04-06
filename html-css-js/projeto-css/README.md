@@ -1,6 +1,6 @@
 # Transforma Tech
 
-* Conteúdo referente a HTML, CSS e JS
+Conteúdo referente a HTML, CSS
 
 ## Links para exercicios feitos:
 - [Exercicio0](./inicio-ao-css.html) - Introdução ao CSS

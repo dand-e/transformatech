@@ -1,12 +1,10 @@
 # Exercicios HMTL
 
-## Olá mundo
-
-As árvres somos nozes
+Conteúdo referente a HTML
 
 ### Links para exercicios feitos:
 - [Exercicio0](/html-css-js/projeto-html/hello.html) - Hello World
-- [Exercicio1](/projeto-html/index.html) - Index
+- [Exercicio1](/html-css-js/projeto-html/index.html) - Index
 - [Exercicio2](/html-css-js/projeto-html/exercicio3.html) - Lista
 - [Exercicio3](/html-css-js/projeto-html/exercicio4.html) - Imagem
 - [Exercicio4](/html-css-js/projeto-html/exercicios-tag.html) - Tags

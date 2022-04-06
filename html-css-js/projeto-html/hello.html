@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* seletor por elemento */
+        div{
+            width: 400px;
+            height: 200px;
+            background-color: bisque;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        /* o id sempre terá prioridade frente a classe */
+        /* seletor por id */
+        #p1{
+            color: darkorange;
+            font-size: 10px;
+            text-align:end;
+        }
+         /* seletor por classe */
+        .p1{
+            color: cadetblue;
+            font-size: 20px;
+            text-align: center;
+        }
+        /* seletor por atributo */
+        p[name="p3"]{
+            color: greenyellow;
+            font-size: 30px;
+            text-align: center;
+        }
+        /* seletor por pseudoclasse */
+        p:hover{
+            color: cadetblue;
+            font-size: 40px;
+            text-align: center;
+        }
+        input[type="text"]:hover{
+            background-color: brown;
+        }
+    </style>
+    <title>Hello</title>
+</head>
+<body>
+    <header>
+        <img src="./img/github.png" style="width: 100px;">
+        <h1>Dan Vi</h1>
+        <h2>{HEADER}</h2> 
+        <p>É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca.</p>
+    </header><br>
+    <section>
+        <header>
+            <h2>{SECTION}</h2>
+        </header>
+        <p>Representa uma seção genérica de conteúdo quando não houver um elemento mais específico para isso.</p>
+    </section><br>
+    <div>
+        <header>
+            <h2>Semântica HTML</h2>
+        </header>
+        <ul>
+            <li><a href="" target="_self">header</a></li>
+            <li><a href="" target="_self">section</a></li>
+            <li><a href="" target="_self">article</a></li>
+            <li><a href="" target="_self">aside</a></li>
+            <li><a href="" target="_self">footer</a></li>
+        </ul>
+    </div>
+    <div style="height: auto;">
+        <article>
+            <header>
+                <img src="" alt="">
+                <h2>{ARTICLE}</h2>
+            </header>
+            <p class="p1">Representa um conteúdo independente e de maior relevância dentro de uma página, como um post de blog, uma notícia em uma barra lateral ou um bloco de comentários. Um article pode conter outros elementos, como header, cabeçalhos, parágrafos e imagens.</p>
+        </article><br>
+        <aside>
+            <HEader>
+                <h2>{ASIDE}</h2>
+            </HEader>
+            <p  id="p1">É uma seção que engloba conteúdos relacionados ao conteúdo principal, como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.</p>
+        </aside><br>
+    </div>
+    <div style="height: auto;">Olá mundo</div>
+    <div>
+        <p name="p3">Teste de seletor por atributo</p>
+    </div>
+    <div>
+        <p>Teste de seletor por pseudoclasse<br>
+        <input type="text" name="teste" id="teste"></p>
+    </div>
+    <footer>
+        <header>
+            <h2>{FOOTER}</h2>
+        </header>
+        <p class="p1" id="p1" >Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é aceito dentro de vários elementos, como article e section e até do body. Exemplos de conteúdo de um {footer} são informações de autor e links relacionados.
+        </p>
+    </footer>
+</body>
+<script>
+
+    alert("Bem vindes!!")
+
+</script>
+</html>

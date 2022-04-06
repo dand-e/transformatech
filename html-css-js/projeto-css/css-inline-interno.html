@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira página com estilos</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        div{
+            background-color: aquamarine;
+            text-align: center;
+            color: black;
+            border: 5px solid black;
+        }
+        .mydiv{
+            background-color: chocolate;
+            text-align:left;
+            color: rgb(47, 134, 20);
+            border: 10px solid rgba(134, 36, 36, 0.808) !important;
+            /* !important vai sobrepor a estilo, independentemente da ordem inline,interno, externo */
+        }
+    </style>
+</head>
+<body>
+    <!-- comentários no html podem ser feitos com alt+shift+a ou selecionar a linha a ser comentada e ctrl+e -->
+
+    <!-- CSS Inline-->
+    
+    <h1 style="font-size: 48px; color: aqua;">Minha primeira página com estilos</h1>
+    <p style="font-size: 24px; color: darkslateblue;"> Estamos desenvolvendo nossas primeiras folhas de estilos.</p>
+    <div>
+        Texto dentro de uma div.
+    </div>
+    <div style="color: blue; text-align: right;">
+        Texto dentro de outra div com style inline.
+    </div>
+    <div class="mydiv">
+        Um texto dentro de uma div com classe.
+    </div>
+    <div class="mydiv" style="color: rgb(80, 17, 139); text-align: right; border: 0ch;">
+        Um texto dentro de uma div com classe e style inline.
+    </div>
+    <div class="mydiv" style="color: rgb(80, 17, 139); text-align: right; border: 0ch !important;">
+        Um texto dentro de uma div com classe e style inline, mostrando !important.
+    </div>
+    <form>
+        <select name="cars">
+            <option value="Volvo">Volvo
+            </option>
+            <option value="Ford">Ford</option>
+        </select>
+    </form>
+</body>
+</html>

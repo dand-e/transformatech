@@ -13,6 +13,7 @@
             background-color: aquamarine;
             text-align: center;
             color: black;
+            padding: 0px 15px;
             border: 5px solid black;
         }
         .mydiv{
@@ -22,6 +23,11 @@
             border: 10px solid rgba(134, 36, 36, 0.808) !important;
             /* !important vai sobrepor a estilo, independentemente da ordem inline,interno, externo */
         }
+        /* .class e #id, sendo que o id somente pode ser usado uma vez */
+        form{
+            border: 6px dotted;
+            border-radius: 5%;
+        }
     </style>
 </head>
 <body>
@@ -29,11 +35,9 @@
 
     <!-- CSS Inline-->
     
-    <h1 style="font-size: 48px; color: aqua;">Minha primeira página com estilos</h1>
+    <h1 style="font-size: 48px; color: aqua; border: 5px dashed rgb(47, 4, 71);">Minha primeira página com estilos</h1>
     <p style="font-size: 24px; color: darkslateblue;"> Estamos desenvolvendo nossas primeiras folhas de estilos.</p>
-    <div>
-        Texto dentro de uma div.
-    </div>
+    <div>Texto dentro de uma div </div>
     <div style="color: blue; text-align: right;">
         Texto dentro de outra div com style inline.
     </div>

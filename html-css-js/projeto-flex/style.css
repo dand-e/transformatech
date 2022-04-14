@@ -1,0 +1,76 @@
+/* mexendo com flex-direction */
+.flex{
+    display: flex;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+/* .flex2{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.flex4{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+} */
+
+.item{
+    background-color: rgba(26, 170, 170, 0.562);
+    margin: 5px;
+}
+
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.flex-item{
+    background-color:lightblue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
+/* mexendo com o wrap */
+.nowrap{
+    flex-wrap: nowrap;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}

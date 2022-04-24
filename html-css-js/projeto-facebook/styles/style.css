@@ -52,15 +52,14 @@ body {
     color: #1c1e21;
     height: 200px;
     font-family: 'Roboto Condensed', sans-serif;
-    /* https://tableless.com.br/propriedade-position-do-css/
- */
+/* https://tableless.com.br/propriedade-position-do-css/*/
     position: relative;
-    left: 27px
+    left: 27px;
     justify-content: center;
 }
 
 .right{
-    width: 400px
+    width: 400px;
 }
 
 form{

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>titulo</title> 
+</head>
+<body>
+    <p class="teste">Minha página</p>
+    <p class="teste">Teste DOM</p>
+    <div class="container">
+      <h1 id="header">Olá</h1>
+      <button id="btn" onclick="obterDado()"> 
+      Reset 
+      </button>
+    </div>
+    <div class="teste" id="div_id" name="teste_nome">
+      <input type="text" name="nome" id="nome" placeholder="nome">
+      <input type="button" value="Teste" id="btn_id" class="teste_btn" onclick="obterDado()">
+    </div>
+</body> 
+<script>
+  function obterDado() {
+    console.log('Botão clicado');
+    var dado = document.getElementById('nome').value;
+    console.log(dado);
+  }
+  var myElement = document.getElementById('header');
+  // console.log(myElement);
+  var myElement = document.getElementsByClassName('container');
+  // console.log(myElement);
+  var myElement = document.getElementsByTagName('h1');
+  // console.log(myElement);
+  var elemento = document.getElementById('div_id');
+  // console.log(elemento);
+  var myElement = document.getElementsByClassName('teste');
+  // console.log(myElement);
+  var myElement = document.querySelector('.teste');
+  // console.log(myElement);
+  var myElement = document.querySelectorAll('.teste');
+  // console.log(myElement);
+</script>
+</html>
